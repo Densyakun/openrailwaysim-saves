@@ -1,0 +1,1564 @@
+{
+  "includes": [
+    "./shared/master-controller.json",
+    "./shared/trains/E217.json"
+  ],
+  "originCoordinate": [
+    139.7731,
+    35.6984
+  ],
+  "terrains": {},
+  "featureCollections": {
+    "line-tsukuba-express": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "line/tsukuba-express",
+            "properties": {
+              "name": "つくばエクスプレス",
+              "route": "train",
+              "@id": "line/tsukuba-express"
+            },
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  139.7731,
+                  35.6984
+                ],
+                [
+                  139.78,
+                  35.707
+                ],
+                [
+                  139.792,
+                  35.714
+                ],
+                [
+                  139.799,
+                  35.733
+                ],
+                [
+                  139.805,
+                  35.749
+                ],
+                [
+                  139.808,
+                  35.762
+                ],
+                [
+                  139.812,
+                  35.77
+                ],
+                [
+                  139.832,
+                  35.82
+                ],
+                [
+                  139.87,
+                  35.84
+                ],
+                [
+                  139.9,
+                  35.85
+                ],
+                [
+                  139.92,
+                  35.86
+                ],
+                [
+                  139.94,
+                  35.87
+                ],
+                [
+                  139.95,
+                  35.89
+                ],
+                [
+                  139.96,
+                  35.91
+                ],
+                [
+                  139.98,
+                  35.95
+                ],
+                [
+                  140,
+                  35.99
+                ],
+                [
+                  140.02,
+                  36.02
+                ],
+                [
+                  140.04,
+                  36.05
+                ],
+                [
+                  140.06,
+                  36.07
+                ],
+                [
+                  140.111,
+                  36.083
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tracks": {
+    "track-tsukuba-express-0": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": 0.9933790918630427,
+      "length": 1141.338824027212,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1141.338824027212": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-1",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": false,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-1": {
+      "position": [
+        623.0131791067624,
+        0,
+        -956.2995816641898
+      ],
+      "rotationY": 0.6231075127257836,
+      "length": 1334.0632125561008,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1334.0632125561008": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-0",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-2",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-2": {
+      "position": [
+        1706.3644990349212,
+        0,
+        -1734.807496014083
+      ],
+      "rotationY": 1.280393214498029,
+      "length": 2205.1850371031005,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2205.1850371031005": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-1",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-3",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-3": {
+      "position": [
+        2337.7938345378134,
+        0,
+        -3847.6581869361316
+      ],
+      "rotationY": 1.2756254408925374,
+      "length": 1859.7085421611964,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1859.7085421611964": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-2",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-4",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-4": {
+      "position": [
+        2878.7892792440775,
+        0,
+        -5626.938881653633
+      ],
+      "rotationY": 1.3860077714297465,
+      "length": 1470.666047946323,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1470.666047946323": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-3",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-5",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-5": {
+      "position": [
+        3149.0075364699273,
+        0,
+        -7072.567021267649
+      ],
+      "rotationY": 1.185757318904818,
+      "length": 959.9826165705103,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "959.9826165705103": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-4",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-6",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-6": {
+      "position": [
+        3509.5724846923304,
+        0,
+        -7962.263341497725
+      ],
+      "rotationY": 1.2575642911366687,
+      "length": 5845.057896836636,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "5845.057896836636": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-5",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-7",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-7": {
+      "position": [
+        5310.639480471152,
+        0,
+        -13522.916135378005
+      ],
+      "rotationY": 0.5765825392007382,
+      "length": 4084.329875885155,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "4084.329875885155": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-6",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-8",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-8": {
+      "position": [
+        8734.658245159755,
+        0,
+        -15749.538248379757
+      ],
+      "rotationY": 0.3912786684608913,
+      "length": 2923.7580309560562,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2923.7580309560562": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-7",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-9",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-9": {
+      "position": [
+        11437.444985604581,
+        0,
+        -16864.574059130096
+      ],
+      "rotationY": 0.5541508124878219,
+      "length": 2117.8665593147466,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2117.8665593147466": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-8",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-10",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-10": {
+      "position": [
+        13238.367747208546,
+        0,
+        -17979.040734181635
+      ],
+      "rotationY": 0.554411382186441,
+      "length": 2117.6730451571443,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2117.6730451571443": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-9",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-11",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-11": {
+      "position": [
+        15038.83552367073,
+        0,
+        -19093.874763132335
+      ],
+      "rotationY": 1.1876365055544185,
+      "length": 2399.4704869157404,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2399.4704869157404": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-10",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-12",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-12": {
+      "position": [
+        15935.884828521332,
+        0,
+        -21319.354747820293
+      ],
+      "rotationY": 1.1878269856900678,
+      "length": 2399.3850592365307,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2399.3850592365307": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-11",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-13",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-13": {
+      "position": [
+        16832.478285067904,
+        0,
+        -23544.92632298146
+      ],
+      "rotationY": 1.1881129008078268,
+      "length": 4798.513723299709,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "4798.513723299709": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-12",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-14",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-14": {
+      "position": [
+        18624.29673495379,
+        0,
+        -27996.344141535923
+      ],
+      "rotationY": 1.1884944509683908,
+      "length": 4798.171741952456,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "4798.171741952456": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-13",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-15",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-15": {
+      "position": [
+        20414.2890366819,
+        0,
+        -32448.128011517165
+      ],
+      "rotationY": 1.0786191776764746,
+      "length": 3790.0566223469177,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "3790.0566223469177": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-14",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-16",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-16": {
+      "position": [
+        22205.264153544074,
+        0,
+        -35788.32820482538
+      ],
+      "rotationY": 1.078983656089875,
+      "length": 3789.7316280507557,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "3789.7316280507557": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-15",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-17",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-17": {
+      "position": [
+        23994.868250338954,
+        0,
+        -39128.89447259844
+      ],
+      "rotationY": 0.8937850714565891,
+      "length": 2859.6924555011674,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2859.6924555011674": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-16",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-tsukuba-express-18",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-tsukuba-express-18": {
+      "position": [
+        25786.369067073043,
+        0,
+        -41357.87759583903
+      ],
+      "rotationY": 0.30869971627952486,
+      "length": 4806.004674639096,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "4806.004674639096": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-tsukuba-express-17",
+      "idOfTrackOrSwitchConnectedFromEnd": "",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    }
+  },
+  "switches": {},
+  "trainFormats": {},
+  "trains": {
+    "E217-tsukuba-express": {
+      "trainFormatId": "E217",
+      "cabStates": [
+        {
+          "reverser": 0,
+          "masterControllerValue": 37
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "reverser": 0,
+          "masterControllerValue": 37
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "speed": 0,
+      "currentDiagramId": "",
+      "currentDiagramCurveIndex": -1,
+      "currentDiagramSectionIndex": -1,
+      "currentRouteIndex": -1,
+      "isStopping": true,
+      "pointOnTrack": {
+        "trackId": "track-tsukuba-express-0",
+        "length": 130
+      },
+      "directionIsReversed": false
+    }
+  },
+  "trainGroups": {
+    "group-tsukuba-express": [
+      "E217-tsukuba-express"
+    ]
+  },
+  "oneHandleMasterControllerUIConfigs": {},
+  "nowDate": 1767225600000,
+  "diagrams": {
+    "diagram-tsukuba-express": {
+      "sections": [
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-0"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "秋葉原駅",
+          "toDisplayName": "新御徒町駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-1"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "新御徒町駅",
+          "toDisplayName": "浅草駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-2"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "浅草駅",
+          "toDisplayName": "南千住駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-3"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "南千住駅",
+          "toDisplayName": "北千住駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-4"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "北千住駅",
+          "toDisplayName": "青井駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-5"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "青井駅",
+          "toDisplayName": "六町駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-6"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "六町駅",
+          "toDisplayName": "八潮駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-7"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "八潮駅",
+          "toDisplayName": "三郷中央駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-8"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "三郷中央駅",
+          "toDisplayName": "南流山駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-9"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "南流山駅",
+          "toDisplayName": "流山セントラルパーク駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-10"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "流山セントラルパーク駅",
+          "toDisplayName": "流山おおたかの森駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-11"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "流山おおたかの森駅",
+          "toDisplayName": "柏の葉キャンパス駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-12"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "柏の葉キャンパス駅",
+          "toDisplayName": "柏たなか駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-13"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "柏たなか駅",
+          "toDisplayName": "守谷駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-14"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "守谷駅",
+          "toDisplayName": "みらい平駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-15"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "みらい平駅",
+          "toDisplayName": "みどりの駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-16"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "みどりの駅",
+          "toDisplayName": "万博記念公園駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-17"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "万博記念公園駅",
+          "toDisplayName": "研究学園駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-tsukuba-express-18"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "研究学園駅",
+          "toDisplayName": "つくば駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        }
+      ],
+      "trainGroups": [
+        "group-tsukuba-express"
+      ],
+      "diagramCurves": [
+        {
+          "scheduledRouteIndexes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "passTime": [
+            28800000,
+            28920000,
+            29040000,
+            29160000,
+            29280000,
+            29400000,
+            29520000,
+            29640000,
+            29760000,
+            29880000,
+            30000000,
+            30120000,
+            30240000,
+            30360000,
+            30480000,
+            30600000,
+            30720000,
+            30840000,
+            30960000
+          ],
+          "stopTime": [
+            28860000,
+            28980000,
+            29100000,
+            29220000,
+            29340000,
+            29460000,
+            29580000,
+            29700000,
+            29820000,
+            29940000,
+            30060000,
+            30180000,
+            30300000,
+            30420000,
+            30540000,
+            30660000,
+            30780000,
+            30900000,
+            31020000
+          ],
+          "isPasses": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "country": "JP",
+      "state": "",
+      "region": ""
+    }
+  },
+  "constructionZones": {},
+  "tunnels": {},
+  "platforms": {
+    "platform-tsukuba-express-akihabara": {
+      "id": "platform-tsukuba-express-akihabara",
+      "name": "秋葉原駅 ホーム",
+      "startLength": 10,
+      "endLength": 170,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-shin-okachimachi": {
+      "id": "platform-tsukuba-express-shin-okachimachi",
+      "name": "新御徒町駅 ホーム",
+      "startLength": 971.338824027212,
+      "endLength": 1131.338824027212,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-asakusa": {
+      "id": "platform-tsukuba-express-asakusa",
+      "name": "浅草駅 ホーム",
+      "startLength": 1164.0632125561008,
+      "endLength": 1324.0632125561008,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-1"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-minami-senju": {
+      "id": "platform-tsukuba-express-minami-senju",
+      "name": "南千住駅 ホーム",
+      "startLength": 2035.1850371031005,
+      "endLength": 2195.1850371031005,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-2"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-kita-senju": {
+      "id": "platform-tsukuba-express-kita-senju",
+      "name": "北千住駅 ホーム",
+      "startLength": 1689.7085421611964,
+      "endLength": 1849.7085421611964,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-3"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-aoi": {
+      "id": "platform-tsukuba-express-aoi",
+      "name": "青井駅 ホーム",
+      "startLength": 1300.666047946323,
+      "endLength": 1460.666047946323,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-4"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-rokucho": {
+      "id": "platform-tsukuba-express-rokucho",
+      "name": "六町駅 ホーム",
+      "startLength": 789.9826165705103,
+      "endLength": 949.9826165705103,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-5"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-yashio": {
+      "id": "platform-tsukuba-express-yashio",
+      "name": "八潮駅 ホーム",
+      "startLength": 5675.057896836636,
+      "endLength": 5835.057896836636,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-6"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-misato-chuo": {
+      "id": "platform-tsukuba-express-misato-chuo",
+      "name": "三郷中央駅 ホーム",
+      "startLength": 3914.329875885155,
+      "endLength": 4074.329875885155,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-7"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-minami-nagareyama": {
+      "id": "platform-tsukuba-express-minami-nagareyama",
+      "name": "南流山駅 ホーム",
+      "startLength": 2753.7580309560562,
+      "endLength": 2913.7580309560562,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-8"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-nagareyama-centralpark": {
+      "id": "platform-tsukuba-express-nagareyama-centralpark",
+      "name": "流山セントラルパーク駅 ホーム",
+      "startLength": 1947.8665593147466,
+      "endLength": 2107.8665593147466,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-9"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-nagareyama-otakanomori": {
+      "id": "platform-tsukuba-express-nagareyama-otakanomori",
+      "name": "流山おおたかの森駅 ホーム",
+      "startLength": 1947.6730451571443,
+      "endLength": 2107.6730451571443,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-10"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-kashiwanoha-campus": {
+      "id": "platform-tsukuba-express-kashiwanoha-campus",
+      "name": "柏の葉キャンパス駅 ホーム",
+      "startLength": 2229.4704869157404,
+      "endLength": 2389.4704869157404,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-11"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-kashiwatanaka": {
+      "id": "platform-tsukuba-express-kashiwatanaka",
+      "name": "柏たなか駅 ホーム",
+      "startLength": 2229.3850592365307,
+      "endLength": 2389.3850592365307,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-12"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-moriya": {
+      "id": "platform-tsukuba-express-moriya",
+      "name": "守谷駅 ホーム",
+      "startLength": 4628.513723299709,
+      "endLength": 4788.513723299709,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-13"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-miraidaira": {
+      "id": "platform-tsukuba-express-miraidaira",
+      "name": "みらい平駅 ホーム",
+      "startLength": 4628.171741952456,
+      "endLength": 4788.171741952456,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-14"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-midorino": {
+      "id": "platform-tsukuba-express-midorino",
+      "name": "みどりの駅 ホーム",
+      "startLength": 3620.0566223469177,
+      "endLength": 3780.0566223469177,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-15"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-banpakukinenkoen": {
+      "id": "platform-tsukuba-express-banpakukinenkoen",
+      "name": "万博記念公園駅 ホーム",
+      "startLength": 3619.7316280507557,
+      "endLength": 3779.7316280507557,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-16"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-kenkyugakuen": {
+      "id": "platform-tsukuba-express-kenkyugakuen",
+      "name": "研究学園駅 ホーム",
+      "startLength": 2689.6924555011674,
+      "endLength": 2849.6924555011674,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-17"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-tsukuba-express-tsukuba": {
+      "id": "platform-tsukuba-express-tsukuba",
+      "name": "つくば駅 ホーム",
+      "startLength": 4636.004674639096,
+      "endLength": 4796.004674639096,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-tsukuba-express-18"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    }
+  },
+  "worldModels": {}
+}

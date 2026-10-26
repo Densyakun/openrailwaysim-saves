@@ -1,0 +1,826 @@
+{
+  "includes": [
+    "./shared/stations/shinjuku.json",
+    "./shared/stations/chofu.json",
+    "./shared/master-controller.json",
+    "./shared/trains/M250.json"
+  ],
+  "originCoordinate": [
+    139.7006,
+    35.6896
+  ],
+  "terrains": {},
+  "featureCollections": {
+    "line-keio": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "line/keio",
+            "properties": {
+              "name": "京王線系統",
+              "route": "train",
+              "@id": "line/keio"
+            },
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  139.7006,
+                  35.6896
+                ],
+                [
+                  139.6672,
+                  35.6738
+                ],
+                [
+                  139.6505,
+                  35.6686
+                ],
+                [
+                  139.584,
+                  35.6518
+                ],
+                [
+                  139.4808,
+                  35.6722
+                ],
+                [
+                  139.4685,
+                  35.6688
+                ],
+                [
+                  139.4471,
+                  35.6507
+                ],
+                [
+                  139.4129,
+                  35.6614
+                ],
+                [
+                  139.3985,
+                  35.6444
+                ],
+                [
+                  139.3448,
+                  35.6584
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tracks": {
+    "track-keio-0": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": -2.6143959869583426,
+      "length": 3491.0062678002896,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "3491.0062678002896": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-1",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": false,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-1": {
+      "position": [
+        -3017.000428144536,
+        0,
+        1756.369317198576
+      ],
+      "rotationY": -2.775997475714704,
+      "length": 1615.5658738966972,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1615.5658738966972": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-0",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-2",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-2": {
+      "position": [
+        -4525.795407142403,
+        0,
+        2333.942519702315
+      ],
+      "rotationY": -2.8409821309807275,
+      "length": 6291.651605567086,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "6291.651605567086": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-1",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-3",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-3": {
+      "position": [
+        -10535.303491775738,
+        0,
+        4196.921989949233
+      ],
+      "rotationY": 2.901216861798528,
+      "length": 9595.350381568715,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "9595.350381568715": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-2",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-4",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-4": {
+      "position": [
+        -19854.773920374242,
+        0,
+        1912.5796610613581
+      ],
+      "rotationY": -2.815919721518488,
+      "length": 1173.6560876352019,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1173.6560876352019": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-3",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-5",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-5": {
+      "position": [
+        -20966.737525426877,
+        0,
+        2288.0867223551713
+      ],
+      "rotationY": -2.338585902204273,
+      "length": 2790.821688384145,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2790.821688384145": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-4",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-6",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-6": {
+      "position": [
+        -22905.093385065797,
+        0,
+        4295.936880548954
+      ],
+      "rotationY": 2.7712845091313634,
+      "length": 3311.103063319256,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "3311.103063319256": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-5",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-7",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-7": {
+      "position": [
+        -25991.756213038814,
+        0,
+        3097.639721104864
+      ],
+      "rotationY": -2.176618870812899,
+      "length": 2294.8050316435847,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2294.8050316435847": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-6",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-keio-8",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-keio-8": {
+      "position": [
+        -27298.50638272502,
+        0,
+        4984.047452026731
+      ],
+      "rotationY": 2.8277785475238653,
+      "length": 5095.665949921447,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "5095.665949921447": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-keio-7",
+      "idOfTrackOrSwitchConnectedFromEnd": "",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1372.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    }
+  },
+  "switches": {},
+  "trainFormats": {},
+  "trains": {
+    "M250-keio": {
+      "trainFormatId": "M250",
+      "cabStates": [
+        {
+          "reverser": 0,
+          "masterControllerValue": 37
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "reverser": 0,
+          "masterControllerValue": 37
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "speed": 0,
+      "currentDiagramId": "",
+      "currentDiagramCurveIndex": -1,
+      "currentDiagramSectionIndex": -1,
+      "currentRouteIndex": -1,
+      "isStopping": true,
+      "pointOnTrack": {
+        "trackId": "track-keio-0",
+        "length": 180
+      },
+      "directionIsReversed": false
+    }
+  },
+  "trainGroups": {
+    "group-keio": [
+      "M250-keio"
+    ]
+  },
+  "oneHandleMasterControllerUIConfigs": {},
+  "nowDate": 1767225600000,
+  "diagrams": {
+    "diagram-keio": {
+      "sections": [
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-0"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "新宿駅",
+          "toDisplayName": "笹塚駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-1"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "笹塚駅",
+          "toDisplayName": "明大前駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-2"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "明大前駅",
+          "toDisplayName": "調布駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-3"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "調布駅",
+          "toDisplayName": "府中駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-4"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "府中駅",
+          "toDisplayName": "分倍河原駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-5"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "分倍河原駅",
+          "toDisplayName": "聖蹟桜ヶ丘駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-6"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "聖蹟桜ヶ丘駅",
+          "toDisplayName": "高幡不動駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-7"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "高幡不動駅",
+          "toDisplayName": "北野駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-keio-8"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "北野駅",
+          "toDisplayName": "京王八王子駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        }
+      ],
+      "trainGroups": [
+        "group-keio"
+      ],
+      "diagramCurves": [
+        {
+          "scheduledRouteIndexes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "passTime": [
+            28800000,
+            28920000,
+            29040000,
+            29160000,
+            29280000,
+            29400000,
+            29520000,
+            29640000,
+            29760000
+          ],
+          "stopTime": [
+            28860000,
+            28980000,
+            29100000,
+            29220000,
+            29340000,
+            29460000,
+            29580000,
+            29700000,
+            29820000
+          ],
+          "isPasses": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "country": "JP",
+      "state": "",
+      "region": ""
+    }
+  },
+  "constructionZones": {},
+  "tunnels": {},
+  "platforms": {
+    "platform-keio-shinjuku": {
+      "id": "platform-keio-shinjuku",
+      "name": "新宿駅 ホーム",
+      "startLength": 10,
+      "endLength": 170,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-sasazuka": {
+      "id": "platform-keio-sasazuka",
+      "name": "笹塚駅 ホーム",
+      "startLength": 3321.0062678002896,
+      "endLength": 3481.0062678002896,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-meidaimae": {
+      "id": "platform-keio-meidaimae",
+      "name": "明大前駅 ホーム",
+      "startLength": 1445.5658738966972,
+      "endLength": 1605.5658738966972,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-1"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-chofu": {
+      "id": "platform-keio-chofu",
+      "name": "調布駅 ホーム",
+      "startLength": 6121.651605567086,
+      "endLength": 6281.651605567086,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-2"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-fuchu": {
+      "id": "platform-keio-fuchu",
+      "name": "府中駅 ホーム",
+      "startLength": 9425.350381568715,
+      "endLength": 9585.350381568715,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-3"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-bubaigawara": {
+      "id": "platform-keio-bubaigawara",
+      "name": "分倍河原駅 ホーム",
+      "startLength": 1003.6560876352019,
+      "endLength": 1163.6560876352019,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-4"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-seisekisakuragaoka": {
+      "id": "platform-keio-seisekisakuragaoka",
+      "name": "聖蹟桜ヶ丘駅 ホーム",
+      "startLength": 2620.821688384145,
+      "endLength": 2780.821688384145,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-5"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-takahatafudo": {
+      "id": "platform-keio-takahatafudo",
+      "name": "高幡不動駅 ホーム",
+      "startLength": 3141.103063319256,
+      "endLength": 3301.103063319256,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-6"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-kitano": {
+      "id": "platform-keio-kitano",
+      "name": "北野駅 ホーム",
+      "startLength": 2124.8050316435847,
+      "endLength": 2284.8050316435847,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-7"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-keio-keio-hachioji": {
+      "id": "platform-keio-keio-hachioji",
+      "name": "京王八王子駅 ホーム",
+      "startLength": 4925.665949921447,
+      "endLength": 5085.665949921447,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-keio-8"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    }
+  },
+  "worldModels": {}
+}

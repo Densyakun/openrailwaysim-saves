@@ -1,0 +1,27 @@
+{
+  "featureCollections": {
+    "station-chofu": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "node/station-chofu",
+            "properties": {
+              "name": "調布駅",
+              "railway": "station",
+              "@id": "node/station-chofu"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                139.584,
+                35.6518
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

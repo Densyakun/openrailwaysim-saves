@@ -1,0 +1,2074 @@
+{
+  "includes": [
+    "./shared/stations/shinjuku.json",
+    "./shared/master-controller.json",
+    "./shared/trains/E217.json"
+  ],
+  "originCoordinate": [
+    139.7671,
+    35.6812
+  ],
+  "terrains": {},
+  "featureCollections": {
+    "line-yamanote": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "line/yamanote",
+            "properties": {
+              "name": "山手線",
+              "route": "train",
+              "@id": "line/yamanote"
+            },
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  139.7671,
+                  35.6812
+                ],
+                [
+                  139.7709,
+                  35.6918
+                ],
+                [
+                  139.7731,
+                  35.6984
+                ],
+                [
+                  139.7773,
+                  35.7138
+                ],
+                [
+                  139.7709,
+                  35.7277
+                ],
+                [
+                  139.7609,
+                  35.7382
+                ],
+                [
+                  139.747,
+                  35.7365
+                ],
+                [
+                  139.7394,
+                  35.7334
+                ],
+                [
+                  139.7286,
+                  35.7313
+                ],
+                [
+                  139.7109,
+                  35.7295
+                ],
+                [
+                  139.7065,
+                  35.7213
+                ],
+                [
+                  139.7038,
+                  35.7126
+                ],
+                [
+                  139.7,
+                  35.7013
+                ],
+                [
+                  139.7006,
+                  35.6896
+                ],
+                [
+                  139.702,
+                  35.683
+                ],
+                [
+                  139.7027,
+                  35.6702
+                ],
+                [
+                  139.7016,
+                  35.658
+                ],
+                [
+                  139.7101,
+                  35.6467
+                ],
+                [
+                  139.7158,
+                  35.6339
+                ],
+                [
+                  139.7234,
+                  35.6264
+                ],
+                [
+                  139.7286,
+                  35.6197
+                ],
+                [
+                  139.7387,
+                  35.6285
+                ],
+                [
+                  139.7476,
+                  35.6457
+                ],
+                [
+                  139.7568,
+                  35.6556
+                ],
+                [
+                  139.7586,
+                  35.6663
+                ],
+                [
+                  139.7634,
+                  35.6751
+                ],
+                [
+                  139.7671,
+                  35.6812
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tracks": {
+    "track-yamanote-0": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": 1.287476064127382,
+      "length": 1227.6164005978217,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1227.6164005978217": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-1",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": false,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-1": {
+      "position": [
+        343.17411988558126,
+        0,
+        -1178.6744887616376
+      ],
+      "rotationY": 1.3064716790047473,
+      "length": 760.303415432017,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "760.303415432017": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-0",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-2",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-2": {
+      "position": [
+        541.8090370711385,
+        0,
+        -1912.5719292751448
+      ],
+      "rotationY": 1.3529359742933647,
+      "length": 1753.893789492416,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1753.893789492416": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-1",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-3",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-3": {
+      "position": [
+        920.8974798659162,
+        0,
+        -3625.0074396986756
+      ],
+      "rotationY": 1.9285960616053366,
+      "length": 1650.0699271909107,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1650.0699271909107": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-2",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-4",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-4": {
+      "position": [
+        343.019624681177,
+        0,
+        -5170.577868086493
+      ],
+      "rotationY": 2.2289018181546307,
+      "length": 1475.770559316859,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1475.770559316859": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-3",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-5",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-5": {
+      "position": [
+        -559.5898446909649,
+        0,
+        -6338.1372411147495
+      ],
+      "rotationY": -2.992178004456328,
+      "length": 1268.7388355586606,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1268.7388355586606": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-4",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-6",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-6": {
+      "position": [
+        -1814.1928771538678,
+        0,
+        -6149.273629506705
+      ],
+      "rotationY": -2.6761888469480524,
+      "length": 767.7145467577452,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "767.7145467577452": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-5",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-7",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-7": {
+      "position": [
+        -2500.2536245736173,
+        0,
+        -5804.735857769984
+      ],
+      "rotationY": -2.9068233944328075,
+      "length": 1002.4179686870436,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1002.4179686870436": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-6",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-8",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-8": {
+      "position": [
+        -3475.1733054747333,
+        0,
+        -5571.554812789212
+      ],
+      "rotationY": -3.0174491833046484,
+      "length": 1610.183357546871,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1610.183357546871": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-7",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-9",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-9": {
+      "position": [
+        -5072.96483822028,
+        0,
+        -5372.174114607189
+      ],
+      "rotationY": -1.9822169684409763,
+      "length": 994.5554331807289,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "994.5554331807289": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-8",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-10",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-10": {
+      "position": [
+        -5470.699316905817,
+        0,
+        -4460.610735497403
+      ],
+      "rotationY": -1.818261436803132,
+      "length": 997.634857911054,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "997.634857911054": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-9",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-11",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-11": {
+      "position": [
+        -5715.067062872713,
+        0,
+        -3493.367377055347
+      ],
+      "rotationY": -1.8380278190353159,
+      "length": 1302.5082079676167,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1302.5082079676167": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-10",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-12",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-12": {
+      "position": [
+        -6059.010259714845,
+        0,
+        -2237.0908512979695
+      ],
+      "rotationY": -1.529852887216014,
+      "length": 1302.1104362902522,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1302.1104362902522": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-11",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-13",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-13": {
+      "position": [
+        -6005.712273802959,
+        0,
+        -936.0716688899132
+      ],
+      "rotationY": -1.40085152203713,
+      "length": 744.7002459650865,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "744.7002459650865": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-12",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-14",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-14": {
+      "position": [
+        -5879.762648419728,
+        0,
+        -202.09949761481369
+      ],
+      "rotationY": -1.5270607844211848,
+      "length": 1424.7009588505998,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1424.7009588505998": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-13",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-15",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-15": {
+      "position": [
+        -5817.472441790121,
+        0,
+        1221.239096082364
+      ],
+      "rotationY": -1.6445803198071367,
+      "length": 1360.2150561458743,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1360.2150561458743": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-14",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-16",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-16": {
+      "position": [
+        -5917.743501596939,
+        0,
+        2577.753273498561
+      ],
+      "rotationY": -1.0227879570898073,
+      "length": 1472.6292720709193,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1472.6292720709193": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-15",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-17",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-17": {
+      "position": [
+        -5150.520910438708,
+        0,
+        3834.736355555188
+      ],
+      "rotationY": -1.2241093297921193,
+      "length": 1513.636775951692,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1513.636775951692": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-16",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-18",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-18": {
+      "position": [
+        -4636.21167499342,
+        0,
+        5258.317157564374
+      ],
+      "rotationY": -0.8822942667783259,
+      "length": 1080.415096106894,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1080.415096106894": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-17",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-19",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-19": {
+      "position": [
+        -3949.736247401526,
+        0,
+        6092.612229591168
+      ],
+      "rotationY": -1.0083968268592753,
+      "length": 880.8781007635597,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "880.8781007635597": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-18",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-20",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-20": {
+      "position": [
+        -3480.036491840068,
+        0,
+        6837.815804482166
+      ],
+      "rotationY": 0.8197388809101323,
+      "length": 1338.2342560277068,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1338.2342560277068": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-19",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-21",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-21": {
+      "position": [
+        -2566.80924267673,
+        0,
+        5859.609836706671
+      ],
+      "rotationY": 1.1724680638126732,
+      "length": 2074.793431871664,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "2074.793431871664": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-20",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-22",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-22": {
+      "position": [
+        -1762.0424596573168,
+        0,
+        3947.2505059619534
+      ],
+      "rotationY": 0.9238682786114715,
+      "length": 1379.4350620162127,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1379.4350620162127": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-21",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-23",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-23": {
+      "position": [
+        -930.6044975547194,
+        0,
+        2846.5452749875785
+      ],
+      "rotationY": 1.434863301541994,
+      "length": 1200.849243160923,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1200.849243160923": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-22",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-24",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-24": {
+      "position": [
+        -767.8716666409928,
+        0,
+        1656.7734773125092
+      ],
+      "rotationY": 1.1536186343554327,
+      "length": 1070.2812460406221,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "1070.2812460406221": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-23",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-yamanote-25",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-yamanote-25": {
+      "position": [
+        -334.21316916244325,
+        0,
+        678.2836954594161
+      ],
+      "rotationY": 1.1129787147120103,
+      "length": 756.1529038281118,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "756.1529038281118": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-yamanote-24",
+      "idOfTrackOrSwitchConnectedFromEnd": "",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1067.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    }
+  },
+  "switches": {},
+  "trainFormats": {},
+  "trains": {
+    "E217-yamanote": {
+      "trainFormatId": "E217",
+      "cabStates": [
+        {
+          "reverser": 0,
+          "masterControllerValue": 37
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "reverser": 0,
+          "masterControllerValue": 37
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "speed": 0,
+      "currentDiagramId": "",
+      "currentDiagramCurveIndex": -1,
+      "currentDiagramSectionIndex": -1,
+      "currentRouteIndex": -1,
+      "isStopping": true,
+      "pointOnTrack": {
+        "trackId": "track-yamanote-0",
+        "length": 130
+      },
+      "directionIsReversed": false
+    }
+  },
+  "trainGroups": {
+    "group-yamanote": [
+      "E217-yamanote"
+    ]
+  },
+  "oneHandleMasterControllerUIConfigs": {},
+  "nowDate": 1767225600000,
+  "diagrams": {
+    "diagram-yamanote": {
+      "sections": [
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-0"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "東京駅",
+          "toDisplayName": "神田駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-1"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "神田駅",
+          "toDisplayName": "秋葉原駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-2"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "秋葉原駅",
+          "toDisplayName": "上野駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-3"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "上野駅",
+          "toDisplayName": "日暮里駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-4"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "日暮里駅",
+          "toDisplayName": "田端駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-5"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "田端駅",
+          "toDisplayName": "駒込駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-6"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "駒込駅",
+          "toDisplayName": "巣鴨駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-7"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "巣鴨駅",
+          "toDisplayName": "大塚駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-8"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "大塚駅",
+          "toDisplayName": "池袋駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-9"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "池袋駅",
+          "toDisplayName": "目白駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-10"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "目白駅",
+          "toDisplayName": "高田馬場駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-11"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "高田馬場駅",
+          "toDisplayName": "新大久保駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-12"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "新大久保駅",
+          "toDisplayName": "新宿駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-13"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "新宿駅",
+          "toDisplayName": "代々木駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-14"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "代々木駅",
+          "toDisplayName": "原宿駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-15"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "原宿駅",
+          "toDisplayName": "渋谷駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-16"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "渋谷駅",
+          "toDisplayName": "恵比寿駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-17"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "恵比寿駅",
+          "toDisplayName": "目黒駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-18"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "目黒駅",
+          "toDisplayName": "五反田駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-19"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "五反田駅",
+          "toDisplayName": "大崎駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-20"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "大崎駅",
+          "toDisplayName": "品川駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-21"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "品川駅",
+          "toDisplayName": "田町駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-22"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "田町駅",
+          "toDisplayName": "浜松町駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-23"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "浜松町駅",
+          "toDisplayName": "新橋駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-24"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "新橋駅",
+          "toDisplayName": "有楽町駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-yamanote-25"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "有楽町駅",
+          "toDisplayName": "東京駅",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        }
+      ],
+      "trainGroups": [
+        "group-yamanote"
+      ],
+      "diagramCurves": [
+        {
+          "scheduledRouteIndexes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "passTime": [
+            28800000,
+            28920000,
+            29040000,
+            29160000,
+            29280000,
+            29400000,
+            29520000,
+            29640000,
+            29760000,
+            29880000,
+            30000000,
+            30120000,
+            30240000,
+            30360000,
+            30480000,
+            30600000,
+            30720000,
+            30840000,
+            30960000,
+            31080000,
+            31200000,
+            31320000,
+            31440000,
+            31560000,
+            31680000,
+            31800000
+          ],
+          "stopTime": [
+            28860000,
+            28980000,
+            29100000,
+            29220000,
+            29340000,
+            29460000,
+            29580000,
+            29700000,
+            29820000,
+            29940000,
+            30060000,
+            30180000,
+            30300000,
+            30420000,
+            30540000,
+            30660000,
+            30780000,
+            30900000,
+            31020000,
+            31140000,
+            31260000,
+            31380000,
+            31500000,
+            31620000,
+            31740000,
+            31860000
+          ],
+          "isPasses": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "country": "JP",
+      "state": "",
+      "region": ""
+    }
+  },
+  "constructionZones": {},
+  "tunnels": {},
+  "platforms": {
+    "platform-yamanote-tokyo": {
+      "id": "platform-yamanote-tokyo",
+      "name": "東京駅 ホーム",
+      "startLength": 586.1529038281118,
+      "endLength": 746.1529038281118,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-25"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-kanda": {
+      "id": "platform-yamanote-kanda",
+      "name": "神田駅 ホーム",
+      "startLength": 1057.6164005978217,
+      "endLength": 1217.6164005978217,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-akihabara": {
+      "id": "platform-yamanote-akihabara",
+      "name": "秋葉原駅 ホーム",
+      "startLength": 590.303415432017,
+      "endLength": 750.303415432017,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-1"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-ueno": {
+      "id": "platform-yamanote-ueno",
+      "name": "上野駅 ホーム",
+      "startLength": 1583.893789492416,
+      "endLength": 1743.893789492416,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-2"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-nippori": {
+      "id": "platform-yamanote-nippori",
+      "name": "日暮里駅 ホーム",
+      "startLength": 1480.0699271909107,
+      "endLength": 1640.0699271909107,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-3"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-tabata": {
+      "id": "platform-yamanote-tabata",
+      "name": "田端駅 ホーム",
+      "startLength": 1305.770559316859,
+      "endLength": 1465.770559316859,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-4"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-komagome": {
+      "id": "platform-yamanote-komagome",
+      "name": "駒込駅 ホーム",
+      "startLength": 1098.7388355586606,
+      "endLength": 1258.7388355586606,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-5"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-sugamo": {
+      "id": "platform-yamanote-sugamo",
+      "name": "巣鴨駅 ホーム",
+      "startLength": 597.7145467577452,
+      "endLength": 757.7145467577452,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-6"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-otsuka": {
+      "id": "platform-yamanote-otsuka",
+      "name": "大塚駅 ホーム",
+      "startLength": 832.4179686870436,
+      "endLength": 992.4179686870436,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-7"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-ikebukuro": {
+      "id": "platform-yamanote-ikebukuro",
+      "name": "池袋駅 ホーム",
+      "startLength": 1440.183357546871,
+      "endLength": 1600.183357546871,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-8"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-mejiro": {
+      "id": "platform-yamanote-mejiro",
+      "name": "目白駅 ホーム",
+      "startLength": 824.5554331807289,
+      "endLength": 984.5554331807289,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-9"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-takadanobaba": {
+      "id": "platform-yamanote-takadanobaba",
+      "name": "高田馬場駅 ホーム",
+      "startLength": 827.634857911054,
+      "endLength": 987.634857911054,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-10"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-shin-okubo": {
+      "id": "platform-yamanote-shin-okubo",
+      "name": "新大久保駅 ホーム",
+      "startLength": 1132.5082079676167,
+      "endLength": 1292.5082079676167,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-11"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-shinjuku": {
+      "id": "platform-yamanote-shinjuku",
+      "name": "新宿駅 ホーム",
+      "startLength": 1132.1104362902522,
+      "endLength": 1292.1104362902522,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-12"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-yoyogi": {
+      "id": "platform-yamanote-yoyogi",
+      "name": "代々木駅 ホーム",
+      "startLength": 574.7002459650865,
+      "endLength": 734.7002459650865,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-13"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-harajuku": {
+      "id": "platform-yamanote-harajuku",
+      "name": "原宿駅 ホーム",
+      "startLength": 1254.7009588505998,
+      "endLength": 1414.7009588505998,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-14"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-shibuya": {
+      "id": "platform-yamanote-shibuya",
+      "name": "渋谷駅 ホーム",
+      "startLength": 1190.2150561458743,
+      "endLength": 1350.2150561458743,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-15"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-ebisu": {
+      "id": "platform-yamanote-ebisu",
+      "name": "恵比寿駅 ホーム",
+      "startLength": 1302.6292720709193,
+      "endLength": 1462.6292720709193,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-16"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-meguro": {
+      "id": "platform-yamanote-meguro",
+      "name": "目黒駅 ホーム",
+      "startLength": 1343.636775951692,
+      "endLength": 1503.636775951692,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-17"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-gotanda": {
+      "id": "platform-yamanote-gotanda",
+      "name": "五反田駅 ホーム",
+      "startLength": 910.415096106894,
+      "endLength": 1070.415096106894,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-18"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-osaki": {
+      "id": "platform-yamanote-osaki",
+      "name": "大崎駅 ホーム",
+      "startLength": 710.8781007635597,
+      "endLength": 870.8781007635597,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-19"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-shinagawa": {
+      "id": "platform-yamanote-shinagawa",
+      "name": "品川駅 ホーム",
+      "startLength": 1168.2342560277068,
+      "endLength": 1328.2342560277068,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-20"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-tamachi": {
+      "id": "platform-yamanote-tamachi",
+      "name": "田町駅 ホーム",
+      "startLength": 1904.7934318716639,
+      "endLength": 2064.793431871664,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-21"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-hamamatsucho": {
+      "id": "platform-yamanote-hamamatsucho",
+      "name": "浜松町駅 ホーム",
+      "startLength": 1209.4350620162127,
+      "endLength": 1369.4350620162127,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-22"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-shimbashi": {
+      "id": "platform-yamanote-shimbashi",
+      "name": "新橋駅 ホーム",
+      "startLength": 1030.849243160923,
+      "endLength": 1190.849243160923,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-23"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-yamanote-yurakucho": {
+      "id": "platform-yamanote-yurakucho",
+      "name": "有楽町駅 ホーム",
+      "startLength": 900.2812460406221,
+      "endLength": 1060.2812460406221,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-yamanote-24"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    }
+  },
+  "worldModels": {}
+}

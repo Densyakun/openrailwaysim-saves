@@ -1,0 +1,28 @@
+{
+  "featureCollections": {
+    "station-hiroshima-ekimae": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "node/station-hiroshima-ekimae",
+            "properties": {
+              "name": "広島駅停留場",
+              "railway": "tram_stop",
+              "public_transport": "platform",
+              "@id": "node/station-hiroshima-ekimae"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                132.4757,
+                34.3975
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

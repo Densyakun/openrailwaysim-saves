@@ -1,0 +1,1027 @@
+{
+  "trainFormats": {
+    "E217": {
+      "bogies": [
+        {
+          "offset": -106.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -93.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -86.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -73.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -66.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -53.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -46.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -33.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -26.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -13.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": -6.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 6.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 13.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 26.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 33.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 46.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 53.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 66.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 73.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 86.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 93.1,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 106.9,
+          "axles": [
+            {
+              "z": -1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            },
+            {
+              "z": 1.05,
+              "diameter": 0.86,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        }
+      ],
+      "otherBodyOffsets": [
+        -100,
+        -80,
+        -60,
+        -40,
+        -20,
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        -90,
+        -70,
+        -50,
+        -30,
+        -10,
+        10,
+        30,
+        50,
+        70,
+        90
+      ],
+      "otherBodyWeights": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cabFormats": [
+        {
+          "directionIsReversed": false,
+          "oneHandleMasterControllerUIConfigId": "one-handle-standard"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "directionIsReversed": true,
+          "oneHandleMasterControllerUIConfigId": "one-handle-standard"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bodySupporterJoints": [
+        {
+          "otherBodyIndex": 0,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 0,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 0,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 1,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 1,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 2,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 1,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 3,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 2,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 4,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 2,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 5,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 3,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 6,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 3,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 7,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 4,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 8,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 4,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 9,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 5,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 10,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 5,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 11,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 6,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 12,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 6,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 13,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 7,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 14,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 7,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 15,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 8,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 16,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 8,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 17,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 9,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 18,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 9,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 19,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 10,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -6.9
+          ],
+          "bogieIndex": 20,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 10,
+          "otherBodyPosition": [
+            0,
+            -1,
+            6.9
+          ],
+          "bogieIndex": 21,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "otherJoints": [
+        {
+          "bodyIndexA": 22,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 33,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 23,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 33,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 23,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 34,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 24,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 34,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 24,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 35,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 25,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 35,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 25,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 36,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 26,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 36,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 26,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 37,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 27,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 37,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 27,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 38,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 28,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 38,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 28,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 39,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 29,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 39,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 29,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 40,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 30,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 40,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 30,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 41,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 31,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 41,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        },
+        {
+          "bodyIndexA": 31,
+          "positionA": [
+            0,
+            0,
+            9.2
+          ],
+          "bodyIndexB": 42,
+          "positionB": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        {
+          "bodyIndexA": 32,
+          "positionA": [
+            0,
+            0,
+            -9.2
+          ],
+          "bodyIndexB": 42,
+          "positionB": [
+            0,
+            0,
+            0.8
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "trainFormats": {
+    "EH800": {
+      "bogies": [
+        {
+          "offset": -7,
+          "axles": [
+            {
+              "z": -1.5,
+              "diameter": 1,
+              "hasMotor": true
+            },
+            {
+              "z": 1.5,
+              "diameter": 1,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        },
+        {
+          "offset": 7,
+          "axles": [
+            {
+              "z": -1.5,
+              "diameter": 1,
+              "hasMotor": true
+            },
+            {
+              "z": 1.5,
+              "diameter": 1,
+              "hasMotor": true
+            }
+          ],
+          "weight": 0
+        }
+      ],
+      "otherBodyOffsets": [
+        0
+      ],
+      "otherBodyWeights": [
+        100
+      ],
+      "cabFormats": [
+        {
+          "directionIsReversed": false,
+          "oneHandleMasterControllerUIConfigId": "one-handle-standard"
+        }
+      ],
+      "bodySupporterJoints": [
+        {
+          "otherBodyIndex": 0,
+          "otherBodyPosition": [
+            0,
+            -1,
+            -7
+          ],
+          "bogieIndex": 0,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "otherBodyIndex": 0,
+          "otherBodyPosition": [
+            0,
+            -1,
+            7
+          ],
+          "bogieIndex": 1,
+          "bogiePosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "otherJoints": []
+    }
+  }
+}

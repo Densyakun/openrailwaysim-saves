@@ -1,0 +1,16 @@
+{
+  "includes": [
+    "./shared/stations/shinjuku.json",
+    "./shared/stations/chofu.json",
+    "./shared/stations/hiroshima-ekimae.json",
+    "./shared/master-controller.json",
+    "./shared/trains/E217.json",
+    "./shared/trains/M250.json",
+    "./shared/trains/EH800.json"
+  ],
+  "originCoordinate": [
+    139.7006,
+    35.6896
+  ],
+  "nowDate": 1767225600000
+}

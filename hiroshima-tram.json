@@ -1,0 +1,1293 @@
+{
+  "includes": [
+    "./shared/stations/hiroshima-ekimae.json",
+    "./shared/master-controller.json"
+  ],
+  "originCoordinate": [
+    132.4757,
+    34.3975
+  ],
+  "terrains": {},
+  "featureCollections": {
+    "line-hiroshima-tram": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "line/hiroshima-tram",
+            "properties": {
+              "name": "広島電鉄（軌道線）",
+              "route": "train",
+              "@id": "line/hiroshima-tram"
+            },
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  132.4757,
+                  34.3975
+                ],
+                [
+                  132.468,
+                  34.393
+                ],
+                [
+                  132.465,
+                  34.392
+                ],
+                [
+                  132.463,
+                  34.393
+                ],
+                [
+                  132.461,
+                  34.393
+                ],
+                [
+                  132.459,
+                  34.394
+                ],
+                [
+                  132.457,
+                  34.3945
+                ],
+                [
+                  132.454,
+                  34.395
+                ],
+                [
+                  132.451,
+                  34.396
+                ],
+                [
+                  132.448,
+                  34.397
+                ],
+                [
+                  132.445,
+                  34.398
+                ],
+                [
+                  132.442,
+                  34.399
+                ],
+                [
+                  132.439,
+                  34.4
+                ],
+                [
+                  132.436,
+                  34.401
+                ],
+                [
+                  132.433,
+                  34.402
+                ],
+                [
+                  132.43,
+                  34.403
+                ],
+                [
+                  132.427,
+                  34.404
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tracks": {
+    "track-hiroshima-tram-0": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationY": -2.5253925759153413,
+      "length": 865.7516617247092,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "865.7516617247092": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-1",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": false,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-1": {
+      "position": [
+        -706.5230176985975,
+        0,
+        500.3510420106694
+      ],
+      "rotationY": -2.75777763775601,
+      "length": 296.88063741356615,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.88063741356615": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-0",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-2",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-2": {
+      "position": [
+        -981.8034552077027,
+        0,
+        611.5211530832099
+      ],
+      "rotationY": 2.596714074498075,
+      "length": 214.57300864434,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "214.57300864434": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-1",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-3",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-3": {
+      "position": [
+        -1165.3041960950293,
+        0,
+        500.3049036747434
+      ],
+      "rotationY": 3.1414575780394056,
+      "length": 183.51247230108515,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "183.51247230108515": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-2",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-4",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-4": {
+      "position": [
+        -1348.8166667219848,
+        0,
+        500.2801156266197
+      ],
+      "rotationY": 2.5966693383059214,
+      "length": 214.57113369759145,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "214.57113369759145": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-3",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-5",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-5": {
+      "position": [
+        -1532.3108286415197,
+        0,
+        389.05662908840173
+      ],
+      "rotationY": 2.8472408152627073,
+      "length": 191.74699008349154,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "191.74699008349154": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-4",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-6",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-6": {
+      "position": [
+        -1715.8108550319316,
+        0,
+        333.42706392025815
+      ],
+      "rotationY": 2.9420950547010736,
+      "length": 280.82161580563746,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "280.82161580563746": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-5",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-7",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-7": {
+      "position": [
+        -1991.0627295638158,
+        0,
+        277.7747012536744
+      ],
+      "rotationY": 2.7574457318812793,
+      "length": 296.871490333627,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.871490333627": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-6",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-8",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-8": {
+      "position": [
+        -2266.297773471165,
+        0,
+        166.51665714796312
+      ],
+      "rotationY": 2.7574119986990886,
+      "length": 296.86844076609674,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.86844076609674": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-7",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-9",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-9": {
+      "position": [
+        -2541.526236862195,
+        0,
+        55.25047152849573
+      ],
+      "rotationY": 2.7573782645791702,
+      "length": 296.8653911304751,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.8653911304751": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-8",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-10",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-10": {
+      "position": [
+        -2816.748119333357,
+        0,
+        -56.02385551992968
+      ],
+      "rotationY": 2.75734452951428,
+      "length": 296.86234141660066,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.86234141660066": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-9",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-11",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-11": {
+      "position": [
+        -3091.9634204708677,
+        0,
+        -167.30632391066777
+      ],
+      "rotationY": 2.75731079350295,
+      "length": 296.8592916357701,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.8592916357701": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-10",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-12",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-12": {
+      "position": [
+        -3367.172139871248,
+        0,
+        -278.5969335616799
+      ],
+      "rotationY": 2.7572770565371454,
+      "length": 296.85624177770563,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.85624177770563": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-11",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-13",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-13": {
+      "position": [
+        -3642.3742771205893,
+        0,
+        -389.89568438925346
+      ],
+      "rotationY": 2.7572433186439156,
+      "length": 296.85319185070455,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.85319185070455": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-12",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-14",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-14": {
+      "position": [
+        -3917.5698318156797,
+        0,
+        -501.2025763053102
+      ],
+      "rotationY": 2.757209579789431,
+      "length": 296.85014184710906,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.85014184710906": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-13",
+      "idOfTrackOrSwitchConnectedFromEnd": "track-hiroshima-tram-15",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    },
+    "track-hiroshima-tram-15": {
+      "position": [
+        -4192.758803542436,
+        0,
+        -612.5176092281785
+      ],
+      "rotationY": 2.757175839991145,
+      "length": 296.84709177614934,
+      "radius": 0,
+      "gradients": {
+        "0": 0,
+        "296.84709177614934": 0
+      },
+      "idOfTrackOrSwitchConnectedFromStart": "track-hiroshima-tram-14",
+      "idOfTrackOrSwitchConnectedFromEnd": "",
+      "connectedFromStartIsTrack": true,
+      "connectedFromEndIsTrack": true,
+      "connectedFromStartIsToEnd": true,
+      "connectedFromEndIsToEnd": false,
+      "beginCant": 0,
+      "endCant": 0,
+      "trackModels": [
+        {
+          "modelPath": "https://raw.githubusercontent.com/Densyakun/assets/main/railway/track/rail-50n-1435.gltf",
+          "start": 0,
+          "end": -1,
+          "isInclined": true,
+          "isTilting": true,
+          "span": 0,
+          "interval": 0,
+          "minDistance": 0,
+          "maxDistance": 0
+        }
+      ]
+    }
+  },
+  "switches": {},
+  "trainFormats": {},
+  "trains": {},
+  "trainGroups": {
+    "group-hiroshima-tram": []
+  },
+  "oneHandleMasterControllerUIConfigs": {},
+  "nowDate": 1767225600000,
+  "diagrams": {
+    "diagram-hiroshima-tram": {
+      "sections": [
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-0"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "広島駅停留場",
+          "toDisplayName": "銀山町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-1"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "銀山町停留場",
+          "toDisplayName": "胡町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-2"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "胡町停留場",
+          "toDisplayName": "八丁堀停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-3"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "八丁堀停留場",
+          "toDisplayName": "立町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-4"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "立町停留場",
+          "toDisplayName": "紙屋町東停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-5"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "紙屋町東停留場",
+          "toDisplayName": "紙屋町西停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-6"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "紙屋町西停留場",
+          "toDisplayName": "原爆ドーム前停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-7"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "原爆ドーム前停留場",
+          "toDisplayName": "本川町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-8"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "本川町停留場",
+          "toDisplayName": "十日市町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-9"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "十日市町停留場",
+          "toDisplayName": "土橋停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-10"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "土橋停留場",
+          "toDisplayName": "小網町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-11"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "小網町停留場",
+          "toDisplayName": "天満町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-12"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "天満町停留場",
+          "toDisplayName": "観音町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-13"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "観音町停留場",
+          "toDisplayName": "西観音町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-14"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "西観音町停留場",
+          "toDisplayName": "福島町停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        },
+        {
+          "routes": [
+            {
+              "trackIds": [
+                "track-hiroshima-tram-15"
+              ],
+              "stopOffset": 0,
+              "fromPlatformName": "",
+              "toPlatformName": ""
+            }
+          ],
+          "fromDisplayName": "福島町停留場",
+          "toDisplayName": "広電西広島停留場",
+          "fromTimezone": "Asia/Tokyo",
+          "toTimezone": "Asia/Tokyo"
+        }
+      ],
+      "trainGroups": [
+        "group-hiroshima-tram"
+      ],
+      "diagramCurves": [
+        {
+          "scheduledRouteIndexes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "passTime": [
+            28800000,
+            28920000,
+            29040000,
+            29160000,
+            29280000,
+            29400000,
+            29520000,
+            29640000,
+            29760000,
+            29880000,
+            30000000,
+            30120000,
+            30240000,
+            30360000,
+            30480000,
+            30600000
+          ],
+          "stopTime": [
+            28860000,
+            28980000,
+            29100000,
+            29220000,
+            29340000,
+            29460000,
+            29580000,
+            29700000,
+            29820000,
+            29940000,
+            30060000,
+            30180000,
+            30300000,
+            30420000,
+            30540000,
+            30660000
+          ],
+          "isPasses": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      ],
+      "country": "JP",
+      "state": "",
+      "region": ""
+    }
+  },
+  "constructionZones": {},
+  "tunnels": {},
+  "platforms": {
+    "platform-hiroshima-tram-hiroshima-ekimae": {
+      "id": "platform-hiroshima-tram-hiroshima-ekimae",
+      "name": "広島駅停留場 ホーム",
+      "startLength": 10,
+      "endLength": 170,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-gingamachi": {
+      "id": "platform-hiroshima-tram-gingamachi",
+      "name": "銀山町停留場 ホーム",
+      "startLength": 695.7516617247092,
+      "endLength": 855.7516617247092,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-0"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-ebisucho": {
+      "id": "platform-hiroshima-tram-ebisucho",
+      "name": "胡町停留場 ホーム",
+      "startLength": 126.88063741356615,
+      "endLength": 286.88063741356615,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-1"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-hatchobori": {
+      "id": "platform-hiroshima-tram-hatchobori",
+      "name": "八丁堀停留場 ホーム",
+      "startLength": 44.57300864434001,
+      "endLength": 204.57300864434,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-2"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-tatemachi": {
+      "id": "platform-hiroshima-tram-tatemachi",
+      "name": "立町停留場 ホーム",
+      "startLength": 13.512472301085154,
+      "endLength": 173.51247230108515,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-3"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-kamiyacho-higashi": {
+      "id": "platform-hiroshima-tram-kamiyacho-higashi",
+      "name": "紙屋町東停留場 ホーム",
+      "startLength": 44.57113369759145,
+      "endLength": 204.57113369759145,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-4"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-kamiyacho-nishi": {
+      "id": "platform-hiroshima-tram-kamiyacho-nishi",
+      "name": "紙屋町西停留場 ホーム",
+      "startLength": 21.74699008349154,
+      "endLength": 181.74699008349154,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-5"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-genbaku-dome-mae": {
+      "id": "platform-hiroshima-tram-genbaku-dome-mae",
+      "name": "原爆ドーム前停留場 ホーム",
+      "startLength": 110.82161580563746,
+      "endLength": 270.82161580563746,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-6"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-honkawacho": {
+      "id": "platform-hiroshima-tram-honkawacho",
+      "name": "本川町停留場 ホーム",
+      "startLength": 126.87149033362698,
+      "endLength": 286.871490333627,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-7"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-tokaichimachi": {
+      "id": "platform-hiroshima-tram-tokaichimachi",
+      "name": "十日市町停留場 ホーム",
+      "startLength": 126.86844076609674,
+      "endLength": 286.86844076609674,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-8"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-dobashi": {
+      "id": "platform-hiroshima-tram-dobashi",
+      "name": "土橋停留場 ホーム",
+      "startLength": 126.86539113047507,
+      "endLength": 286.8653911304751,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-9"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-koamicho": {
+      "id": "platform-hiroshima-tram-koamicho",
+      "name": "小網町停留場 ホーム",
+      "startLength": 126.86234141660066,
+      "endLength": 286.86234141660066,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-10"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-tenmacho": {
+      "id": "platform-hiroshima-tram-tenmacho",
+      "name": "天満町停留場 ホーム",
+      "startLength": 126.85929163577009,
+      "endLength": 286.8592916357701,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-11"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-kanonmachi": {
+      "id": "platform-hiroshima-tram-kanonmachi",
+      "name": "観音町停留場 ホーム",
+      "startLength": 126.85624177770563,
+      "endLength": 286.85624177770563,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-12"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-nishi-kanonmachi": {
+      "id": "platform-hiroshima-tram-nishi-kanonmachi",
+      "name": "西観音町停留場 ホーム",
+      "startLength": 126.85319185070455,
+      "endLength": 286.85319185070455,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-13"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-fukushimacho": {
+      "id": "platform-hiroshima-tram-fukushimacho",
+      "name": "福島町停留場 ホーム",
+      "startLength": 126.85014184710906,
+      "endLength": 286.85014184710906,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-14"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    },
+    "platform-hiroshima-tram-hiroden-nishi-hiroshima": {
+      "id": "platform-hiroshima-tram-hiroden-nishi-hiroshima",
+      "name": "広電西広島停留場 ホーム",
+      "startLength": 126.84709177614934,
+      "endLength": 286.84709177614934,
+      "offset": 2.5,
+      "height": 1.1,
+      "isAbsoluteHeight": false,
+      "vehicleOverhang": 0,
+      "trackIds": [
+        "track-hiroshima-tram-15"
+      ],
+      "boundaryVertices": [],
+      "color": "#8a8a8a",
+      "booleanIslandIds": []
+    }
+  },
+  "worldModels": {}
+}

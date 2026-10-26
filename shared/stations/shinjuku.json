@@ -1,0 +1,27 @@
+{
+  "featureCollections": {
+    "station-shinjuku": {
+      "value": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "id": "node/station-shinjuku",
+            "properties": {
+              "name": "新宿駅",
+              "railway": "station",
+              "@id": "node/station-shinjuku"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                139.7006,
+                35.6896
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
